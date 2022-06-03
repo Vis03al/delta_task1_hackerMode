@@ -1,0 +1,41 @@
+body{
+    background-color: #1c081c;
+}
+p{
+    color: white;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 5px;
+    width: 60px;
+}
+
+
+.container{
+    display: grid;
+    background: url("bg.png");
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-row-columns: 100px 100px 100px 100px 100px 100px;
+    grid-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.btn{
+    padding: 30px 15px;
+    background-color: white;
+}
+.new{
+
+    background-color: white;
+    animation:pop 2s ease-in-out;
+
+}
+@keyframes pop {
+    100%{
+        background-color: #fffb2e;
+    }
+}
