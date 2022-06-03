@@ -1,4 +1,6 @@
-body{
+:root{
+    --n:n;
+}body{
     background-color: #1c081c;
 }
 p{
@@ -15,8 +17,8 @@ p{
 .container{
     display: grid;
     background: url("bg.png");
-    grid-template-columns: 100px 100px 100px 100px 100px 100px;
-    grid-row-columns: 100px 100px 100px 100px 100px 100px;
+    /*grid-template-columns: repeat(6,100px);*/
+    /*grid-row-columns: 100px 100px 100px 100px 100px 100px;*/
     grid-gap: 10px;
     grid-row-gap: 10px;
     justify-content: center;
